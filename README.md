@@ -1,43 +1,54 @@
-# Python Statistics & Probability Exercises
+# Python Statistics and Probability Project
 
-This repository contains practical exercises and example scripts for learning statistics and probability using Python.
-It is designed for beginners and students who want to understand basic statistical concepts, data analysis, and simulation techniques, all with clear and simple code.
+This repository contains solved exercises and practical examples in statistics and probability using Python. All files are designed for students learning the basics of data analysis.
 
-## Contents
+## Project Structure
 
-- Descriptive statistics: mean, median, variance, standard deviation, and data visualization.
-- Probability distributions: simulation of Bernoulli, Binomial, and Poisson distributions.
-- Confidence intervals and hypothesis testing for means and proportions.
-- Correlation: Pearson, Spearman, and Kendall coefficients calculated from scratch.
-- Outlier detection and exploratory data analysis using real datasets (for example, wine quality).
-- Data visualization: histograms, boxplots, and heatmaps for better understanding.
+- **Notebooks:**  
+  - `Ejercicio_1-estadistica_Aplicado-soluciones.ipynb`: Basic statistics exercises with explanations.
+  - `Ejercicio_2-estadistica_Aplicado-soluciones.ipynb`: Probability exercises and data visualizations.
+- **Data Files:**  
+  - `airline-passengers.csv`: Dataset with monthly airline passenger numbers.
+  - `winequality-white.csv`: Dataset about white wine quality parameters.
+- **Scripts:**  
+  - You may find Python scripts (`.py`) with helper functions or extra code.
+- **Requirements:**  
+  - `requirements.txt`: All libraries required to run the code.
+- **README:**  
+  - This file.
 
-## Installation
+## Topics Covered
 
-1. Clone or unzip this repository.
-2. Install the required libraries with:
+- Descriptive statistics (mean, variance, etc.)
+- Data visualization
+- Probability distributions
+- Regression (simple and multiple)
+- Classification (k-NN, Decision Trees)
+- Model evaluation (accuracy, precision, recall, F1-score, ROC/AUC)
+- Time series analysis and ARIMA forecasting
 
-   ```
-   pip install -r requirements.txt
-   ```
+## How to Use This Repository
 
-   The `requirements.txt` file includes:
-   - numpy
-   - pandas
-   - matplotlib
-   - seaborn 
+1. *Clone the repository** to your computer:
+    ```
+    git clone https://github.com/Samuel-Cantarero/python-statistics-probability.git
+2. Install the required Python libraries:
+    ```
+    pip install -r requirements.txt
+3. Open the notebooks (`.ipynb`) in Jupyter Notebook, VSCode, or Google Colab.
+4. Follow the instructions and comments inside each notebook.
 
-## How to use
+## Requirements
 
-1. Open the Jupyter notebooks (.ipynb) or Python scripts (.py) in your preferred environment (such as Visual Studio Code or JupyterLab).
-2. Run each cell and review the code comments and outputs.
-   Each notebook is self-contained and shows both the formulas and Python implementations.
+- Python 3.7 or higher
+- See `requirements.txt` for a full list of dependencies.
 
-## Audience
+## Data
 
-- Students and beginners in Python programming and data science.
-- Anyone wanting to learn statistics and probability in a practical way.
+- All necessary datasets are included in this repository.
+- Example: `airline-passengers.csv` is used for time series analysis.
 
-## License
+## Author
 
-MIT License
+Project developed for a course in Statistics for Data Science in Evolve.
+
